@@ -1,0 +1,96 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - request > extend:
+        patched: '2020-01-19T20:14:20.379Z'
+    - spectron > request > extend:
+        patched: '2020-01-19T20:14:20.379Z'
+    - node-sass > request > extend:
+        patched: '2020-01-19T20:14:20.379Z'
+    - node-sass > node-gyp > request > extend:
+        patched: '2020-01-19T20:14:20.379Z'
+    - spectron > webdriverio > request > extend:
+        patched: '2020-01-19T20:14:20.379Z'
+    - eslint-plugin-json > jshint > phantomjs-prebuilt > request > extend:
+        patched: '2020-01-19T20:14:20.379Z'
+    - eslint-plugin-json > jshint > phantom > phantomjs-prebuilt > request > extend:
+        patched: '2020-01-19T20:14:20.379Z'
+    - spectron > electron-chromedriver > electron-download > nugget > request > extend:
+        patched: '2020-01-19T20:14:20.379Z'
+  'npm:hoek:20180212':
+    - request > hawk > hoek:
+        patched: '2020-01-19T20:14:20.379Z'
+    - request > hawk > sntp > hoek:
+        patched: '2020-01-19T20:14:20.379Z'
+    - request > hawk > boom > hoek:
+        patched: '2020-01-19T20:14:20.379Z'
+    - spectron > request > hawk > hoek:
+        patched: '2020-01-19T20:14:20.379Z'
+    - spectron > request > hawk > boom > hoek:
+        patched: '2020-01-19T20:14:20.379Z'
+    - request > hawk > cryptiles > boom > hoek:
+        patched: '2020-01-19T20:14:20.379Z'
+    - node-sass > node-gyp > request > hawk > hoek:
+        patched: '2020-01-19T20:14:20.379Z'
+    - spectron > request > hawk > sntp > hoek:
+        patched: '2020-01-19T20:14:20.379Z'
+    - eslint-plugin-json > jshint > phantomjs-prebuilt > request > hawk > hoek:
+        patched: '2020-01-19T20:14:20.379Z'
+    - node-sass > node-gyp > request > hawk > boom > hoek:
+        patched: '2020-01-19T20:14:20.379Z'
+    - node-sass > node-gyp > request > hawk > sntp > hoek:
+        patched: '2020-01-19T20:14:20.379Z'
+    - spectron > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-01-19T20:14:20.379Z'
+    - eslint-plugin-json > jshint > phantomjs-prebuilt > request > hawk > boom > hoek:
+        patched: '2020-01-19T20:14:20.379Z'
+    - eslint-plugin-json > jshint > phantomjs-prebuilt > request > hawk > sntp > hoek:
+        patched: '2020-01-19T20:14:20.379Z'
+    - spectron > electron-chromedriver > electron-download > nugget > request > hawk > hoek:
+        patched: '2020-01-19T20:14:20.379Z'
+    - node-sass > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-01-19T20:14:20.379Z'
+    - eslint-plugin-json > jshint > phantom > phantomjs-prebuilt > request > hawk > hoek:
+        patched: '2020-01-19T20:14:20.379Z'
+    - eslint-plugin-json > jshint > phantom > phantomjs-prebuilt > request > hawk > boom > hoek:
+        patched: '2020-01-19T20:14:20.379Z'
+    - spectron > electron-chromedriver > electron-download > nugget > request > hawk > boom > hoek:
+        patched: '2020-01-19T20:14:20.379Z'
+    - spectron > electron-chromedriver > electron-download > nugget > request > hawk > sntp > hoek:
+        patched: '2020-01-19T20:14:20.379Z'
+    - eslint-plugin-json > jshint > phantomjs-prebuilt > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-01-19T20:14:20.379Z'
+    - eslint-plugin-json > jshint > phantom > phantomjs-prebuilt > request > hawk > sntp > hoek:
+        patched: '2020-01-19T20:14:20.379Z'
+    - eslint-plugin-json > jshint > phantom > phantomjs-prebuilt > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-01-19T20:14:20.379Z'
+    - spectron > electron-chromedriver > electron-download > nugget > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-01-19T20:14:20.379Z'
+    - spectron > webdriverio > request > hawk > hoek:
+        patched: '2020-01-19T20:14:20.379Z'
+    - spectron > webdriverio > request > hawk > boom > hoek:
+        patched: '2020-01-19T20:14:20.379Z'
+    - spectron > webdriverio > request > hawk > sntp > hoek:
+        patched: '2020-01-19T20:14:20.379Z'
+    - spectron > webdriverio > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-01-19T20:14:20.379Z'
+  'npm:stringstream:20180511':
+    - request > stringstream:
+        patched: '2020-01-19T20:14:20.379Z'
+    - spectron > request > stringstream:
+        patched: '2020-01-19T20:14:20.379Z'
+    - node-sass > request > stringstream:
+        patched: '2020-01-19T20:14:20.379Z'
+    - node-sass > node-gyp > request > stringstream:
+        patched: '2020-01-19T20:14:20.379Z'
+    - spectron > webdriverio > request > stringstream:
+        patched: '2020-01-19T20:14:20.379Z'
+    - eslint-plugin-json > jshint > phantomjs-prebuilt > request > stringstream:
+        patched: '2020-01-19T20:14:20.379Z'
+    - eslint-plugin-json > jshint > phantom > phantomjs-prebuilt > request > stringstream:
+        patched: '2020-01-19T20:14:20.379Z'
+    - spectron > electron-chromedriver > electron-download > nugget > request > stringstream:
+        patched: '2020-01-19T20:14:20.379Z'
