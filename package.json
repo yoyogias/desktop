@@ -40,7 +40,9 @@
     "rebuild-hard:prod": "yarn clean-slate && yarn build:prod",
     "changelog": "ts-node script/changelog/index.ts",
     "draft-release": "ts-node script/draft-release/index.ts",
-    "validate-changelog": "ts-node script/validate-changelog.ts"
+    "validate-changelog": "ts-node script/validate-changelog.ts",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "author": {
     "name": "GitHub, Inc.",
@@ -57,7 +59,7 @@
     "ajv": "^6.4.0",
     "awesome-node-loader": "^1.1.0",
     "awesome-typescript-loader": "^5.2.1",
-    "aws-sdk": "^2.23.0",
+    "aws-sdk": "^2.178.0",
     "babel-core": "^6.26.3",
     "babel-jest": "^23.4.2",
     "babel-minify-webpack-plugin": "^0.3.1",
@@ -69,7 +71,7 @@
     "clean-webpack-plugin": "^0.1.19",
     "codecov": "^3.1.0",
     "cross-env": "^5.0.5",
-    "css-loader": "^0.28.11",
+    "css-loader": "^1.0.0",
     "eslint": "^5.2.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-babel": "^5.1.0",
@@ -83,13 +85,13 @@
     "fs-extra": "^6.0.0",
     "glob": "^7.1.2",
     "html-webpack-plugin": "^3.2.0",
-    "jest": "^23.5.0",
+    "jest": "^24.0.0",
     "json-pretty": "^0.0.1",
     "klaw-sync": "^3.0.0",
     "legal-eagle": "0.16.0",
     "mini-css-extract-plugin": "^0.4.0",
     "mocha": "^5.2.0",
-    "node-sass": "^4.7.2",
+    "node-sass": "^4.13.1",
     "octicons": "^7.0.1",
     "parallel-webpack": "^2.3.0",
     "prettier": "^1.14.2",
@@ -109,12 +111,13 @@
     "typescript": "^3.0.3",
     "typescript-eslint-parser": "^18.0.0",
     "webpack": "^4.8.3",
-    "webpack-bundle-analyzer": "^2.13.0",
+    "webpack-bundle-analyzer": "^3.3.2",
     "webpack-dev-middleware": "^3.1.3",
     "webpack-hot-middleware": "^2.22.2",
     "webpack-merge": "^4.1.2",
     "xml2js": "^0.4.16",
-    "xvfb-maybe": "^0.2.1"
+    "xvfb-maybe": "^0.2.1",
+    "snyk": "^1.278.1"
   },
   "devDependencies": {
     "@types/byline": "^4.2.31",
@@ -164,5 +167,6 @@
     "electron-builder": "20.27.1",
     "electron-packager": "^12.0.0",
     "electron-winstaller": "2.5.2"
-  }
+  },
+  "snyk": true
 }
